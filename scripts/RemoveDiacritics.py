@@ -1,3 +1,12 @@
+# coding:			utf-8
+# File name: 		naprawOgonki.py
+# Author: 			Piotr Kaminski
+# E-Mail: 			piotrkamx at gmail dot com
+# Date created:		November 2018
+# Python Version:	2.6
+# Description:
+#	This script replaces all diacritic characters (with "tails" or "dots"), where possible, with their closest non-diacritic equivalent
+
 import unicodedata
 
 # inspired by https://stackoverflow.com/a/517974
